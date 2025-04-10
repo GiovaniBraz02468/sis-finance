@@ -1,0 +1,12 @@
+.card-container {
+    display: flex;
+    gap: 10px; /* Espaço entre os cartões */
+    overflow-x: auto; /* Adiciona rolagem lateral em telas pequenas */
+    padding: 10px;
+    white-space: nowrap; /* Impede quebra de linha */
+}
+
+.cardCar {
+    min-width: 16rem; /* Largura mínima para telas pequenas */
+    max-width: 16rem; /* Mantém o tamanho fixo em telas pequenas */
+}

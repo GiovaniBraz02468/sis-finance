@@ -1,0 +1,9 @@
+/* Estilo para as linhas alternadas da tabela */
+.table tr.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Opção de hover para linhas */
+.table tr:hover {
+    background-color: #e9ecef;
+}

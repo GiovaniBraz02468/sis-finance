@@ -1,0 +1,43 @@
+.botao-tab {
+  border: 2px solid black;
+  /* Borda padrão */
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.botao-tab.ativo {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.scrollable-list {
+  max-height: 400px; /* ajuste como preferir */
+  overflow-y: auto;
+  border-radius: 0.5rem;
+}
+
+.movimentos-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 80px); /* subtrai a altura da navbar */
+  padding: 1rem;
+  overflow: hidden; /* evita rolagem extra */
+}
+
+.lista-scroll-container {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 1rem;
+}
+
+.lista-scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+.lista-scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}

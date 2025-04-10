@@ -1,0 +1,15 @@
+.divTitulo {
+    background-color: black;
+    color: white;
+    padding: 15px 20px; /* Ajusta a borda sem ocupar toda a tela */
+    text-align: center;
+    display: inline-block; /* Faz com que a largura dependa do conteúdo */
+    border-radius: 12px;
+}
+
+.divCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
